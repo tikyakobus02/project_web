@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(248, 240, 233);
+    background-size: 100%;
+}
+
+.bungkus_logo {
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.bungkus_list {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.ul1 {
+    display: flex;
+}
+
+.li1 {
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    font-weight: bold;
+    color: rgb(178, 108, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.li1:hover {
+    color: rgb(51, 0, 255);
+}
+
+.li1::after {
+    content: '';
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgb(51, 0, 255);
+    transform: scaleX(0);
+    transition: 0.25s linear;
+}
+
+.li1:hover:after {
+    transform: scaleX(1);
+}
+
+.login {
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    margin-left: 400px;
+    font-weight: bold;
+    color: rgb(178, 108, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.login::after {
+    content: '';
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgb(51, 0, 255);
+    transform: scaleX(0);
+    transition: 0.25s linear;
+}
+
+.login:hover:after {
+    transform: scaleX(1);
+}
+
+.login:hover {
+    color: rgb(51, 0, 255);
+}
+
+.register {
+    padding: 20px 20px 20px 20px;
+    list-style-type: none;
+    font-weight: bold;
+    color: rgb(178, 108, 3);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.register:hover {
+    color: rgb(51, 0, 255);
+}
+
+.register::after {
+    content: '';
+    display: block;
+    padding-bottom: 7px;
+    border-bottom: 2px solid rgb(51, 0, 255);
+    transform: scaleX(0);
+    transition: 0.25s linear;
+}
+
+.register:hover:after {
+    transform: scaleX(1);
+}
+
+.bungkus_atas {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(253, 162, 101);
+}
+
+.logo-1 {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.bungkus_tengah {
+
+}
+
+.bungkus_bawah {
+
+}
